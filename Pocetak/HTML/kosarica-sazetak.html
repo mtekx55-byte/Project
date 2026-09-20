@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Pocetak/HTML/CSS/kosaricasazetak.css" />
+  </head>
+
+  <body>
+    <h1>Pregled košarice</h1>
+
+    <div id="kosarica-container"></div>
+
+    <div id="ukupno-container"></div>
+
+    <div id="forma-dostava" class="mt-4 p-4 border rounded">
+      <h4>Podaci za narudžbu</h4>
+      <input
+        type="text"
+        id="ime"
+        class="form-control mb-2"
+        placeholder="Ime i prezime"
+      />
+      <input
+        type="text"
+        id="adresa"
+        class="form-control mb-2"
+        placeholder="Adresa dostave"
+      />
+      <button id="btn-plati" class="btn btn-primary w-100">
+        Potvrdi narudžbu
+      </button>
+    </div>
+
+    <script src="/Pocetak/HTML/JS/prikaz-kosarice.js"></script>
+  </body>
+</html>

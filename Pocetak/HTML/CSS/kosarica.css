@@ -1,0 +1,41 @@
+.container {
+    max-width: 900px;
+}
+
+.cart-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Smanjene dimenzije sa 100px na 60px */
+.product-img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px; /* malo zaobljeniji rubovi izgledaju urednije na manjoj slici */
+    margin-right: 15px; /* dodali malo prostora desno da slika ne bude priljubljena uz tekst */
+}
+
+.cart-summary {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn-plati {
+    background-color:rgb(19, 66, 73);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-plati:hover {
+    background-color: rgb(19, 66, 73);
+}

@@ -1,0 +1,68 @@
+/* Postavlja pozadinu cijele web stranice */
+body {
+    background-color: #f2f2f2;   /* Svijetlo siva pozadina */
+}
+
+/* Glavni okvir forme za registraciju */
+.forma-registracija {
+    width: 450px;                /* Širina forme */
+    margin: 50px auto;           /* 50px od vrha, auto centrira element vodoravno */
+    background: white;           /* Bijela pozadina */
+    padding: 30px;               /* Unutarnji razmak između sadržaja i ruba */
+    border-radius: 15px;         /* Zaobljeni kutovi */
+    box-shadow: 0 0 15px #aaa;   /* Dodaje sjenu oko forme */
+}
+
+/* Zaglavlje registracijske forme */
+.register-header {
+    text-align: center;          /* Centrira ikonu i naslov */
+    margin-bottom: 25px;         /* Razmak ispod zaglavlja */
+}
+
+/* Stil ikone u zaglavlju */
+.register-header i {
+    font-size: 50px;             /* Veličina ikone */
+    color: #333;                 /* Tamno siva boja ikone */
+}
+
+/* Naslov registracije */
+.register-header h2 {
+    margin-top: 10px;            /* Razmak između ikone i naslova */
+}
+
+/* Oznake (label) iznad input polja */
+.form-label {
+    font-weight: 500;            /* Malo deblji tekst */
+}
+
+/* Stil svih input polja */
+.form-control {
+    border-radius: 8px;          /* Zaobljeni kutovi input polja */
+    margin-bottom: 10px;         /* Razmak između input polja */
+}
+
+/* Stil gumba */
+.btn {
+    border-radius: 8px;          /* Zaobljeni kutovi gumba */
+    padding: 10px;               /* Unutarnji razmak kako bi gumb bio veći */
+    margin-top: 10px;            /* Razmak između zadnjeg inputa i gumba */
+}
+
+/* Donji dio forme (npr. link za prijavu) */
+.register-footer {
+    text-align: center;          /* Centrira sadržaj */
+    margin-top: 20px;            /* Razmak od gumba */
+    font-size: 0.9rem;           /* Malo manji tekst */
+}
+
+/* Stil linka u podnožju */
+.register-footer a {
+    text-decoration: none;       /* Uklanja podcrtavanje linka */
+    color: black;                /* Crna boja teksta */
+    font-weight: bold;           /* Podebljan tekst */
+}
+
+/* Stil linka kada korisnik prijeđe mišem preko njega */
+.register-footer a:hover {
+    text-decoration: underline;  /* Dodaje podcrtavanje pri prelasku mišem */
+}

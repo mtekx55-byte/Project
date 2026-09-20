@@ -1,0 +1,244 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: clamp(20px, 5vw, 40px);
+    background:#0e2e3b;
+    font-size:25px;
+}
+
+.navbar a{
+    color:#d8d7c3;
+    text-decoration:none;
+    font-size:25px;
+}
+.dropdown-menu{
+    background-color: #0e2e3b !important;
+}
+.dropdown-menu .dropdown-item {
+    color: white !important;
+}
+
+.logo{
+    color:#0e2e3b;
+    font-size:45px;
+    font-weight:bold;
+    width:auto;
+}
+
+.slika {
+    width:250px;
+    max-width:100%;
+    height:auto;
+}
+.glavni{
+    display: flex;
+    flex-direction: row;
+    margin: 18px;  
+}
+     
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.navbar a{
+    color:#d8d7c3;
+    text-decoration:none;
+}
+.asdslika {
+    width:100%;
+    max-width:700px;
+    height:auto;
+ 
+}
+
+.asdras{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.asdras>.asdslika1 {
+    width:100px;
+    height:auto;
+    margin-left: 10px;
+    
+}
+.about{
+    padding:80px 8%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+.about-text h2{
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.posebno{
+    border: none;
+    background-color: rgb(219, 213, 213);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: calc(10px + 0.5vw) calc(20px + 1vw);
+    font-size: clamp(16px, 2vw, 20px);
+    transition: transform 0.6s;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    min-width:300px;
+    max-width: 600px;
+}
+
+main button{
+    margin:5px;
+}
+
+tr, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #949a9c;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #0e2e3b;
+    color: white;
+}
+
+span{
+    margin-right: 15px;
+}
+
+.product-page{
+    display:flex;
+    gap:40px;
+    align-items:flex-start;
+    padding:20px;
+}
+
+.navbar button{
+    background: transparent !important; /* Uklanja pozadinu gumba */
+    border: none !important;             /* Uklanja okvir gumba */
+    padding: 0;                          /* Uklanja unutarnji razmak gumba */
+    cursor: pointer;
+}
+
+.prijava, .kosara {
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: calc(10px + 0.5vw) calc(20px + 1vw);
+    font-size: clamp(16px, 2vw, 20px);
+    color: white;
+    transition: transform 0.6s;
+}
+
+button.posebno.gumb-velicina.odabrano {
+    background-color: white !important; /* Mijenja pozadinu u narančastu */
+    color: white !important;              /* Mijenja tekst u bijeli da se vidi */
+    border: 2px solid white !important; /* Dodaje narančasti okvir */
+    transform: scale(1.05);               /* Lagano ga poveća */
+} 
+
+
+/* Razmak i font za izbornik */
+.col-md-3 {
+    border-right: 1px solid #eee; /* Tanki crni rub između filtera i proizvoda */
+    padding-right: 20px;
+}
+
+.filter-group {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.filter-group:hover {
+    color: #ff0055; /* Boja teksta se mijenja na hover */
+}
+
+.proizvod-kartica {
+    border: 1px solid #e0e0e0;
+    border-radius: 0; /* Ako želiš oštre rubove kao na slici */
+    transition: 0.2s;
+}
+
+.proizvod-kartica:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: contain; /* Slika neće biti rastegnuta */
+}
+
+.raspored{
+    display: flex;
+}
+
+#brojac-kosarice{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+@media (max-width:1400px){
+
+.asdslika{
+    max-width:600px;
+}
+
+.logo{
+    font-size:38px;
+}
+
+.navbar{
+    padding:20px;
+}
+
+}
+ /* zaobljeni search bar */
+li a {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+li a input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+li a i {
+    padding: 10px;
+}

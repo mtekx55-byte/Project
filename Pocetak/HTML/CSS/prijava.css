@@ -1,0 +1,64 @@
+/* Mijenja pozadinu cijele web stranice */
+body {
+    background-color: #f2f2f2;   /* Svijetlo siva pozadina */
+}
+
+/* Stil glavnog okvira za prijavu */
+.login-box {
+    width: 400px;                /* Širina okvira */
+    margin: 100px auto;          /* 100px od vrha, auto centrira element vodoravno */
+    background: white;           /* Bijela pozadina */
+    padding: 30px;               /* Unutarnji razmak između sadržaja i ruba */
+    border-radius: 15px;         /* Zaobljeni kutovi */
+    box-shadow: 0 0 15px #aaa;   /* Sjena oko okvira */
+}
+
+/* Zaglavlje login forme */
+.login-header {
+    text-align: center;          /* Centrira tekst i ikonu */
+    margin-bottom: 25px;         /* Razmak ispod zaglavlja */
+}
+
+/* Stil ikone u zaglavlju */
+.login-header i {
+    font-size: 60px;             /* Povećava veličinu ikone */
+}
+
+/* Naslov u zaglavlju */
+.login-header h2 {
+    margin-top: 10px;            /* Razmak između ikone i naslova */
+}
+
+/* Oznake (label) iznad input polja */
+.form-label {
+    font-weight: 500;            /* Malo deblji tekst */
+}
+
+/* Stil svih input polja */
+.form-control {
+    border-radius: 8px;          /* Zaobljeni kutovi inputa */
+}
+
+/* Stil svih gumba */
+.btn {
+    border-radius: 8px;          /* Zaobljeni kutovi gumba */
+    padding: 10px;               /* Unutarnji razmak kako bi gumb bio veći */
+}
+
+/* Donji dio forme (npr. "Registriraj se") */
+.login-footer {
+    text-align: center;          /* Centrira sadržaj */
+    margin-top: 20px;            /* Razmak od sadržaja iznad */
+}
+
+/* Stil linka u podnožju */
+.login-footer a {
+    text-decoration: none;       /* Uklanja podcrtavanje linka */
+    color: black;                /* Boja teksta */
+    font-weight: bold;           /* Podebljan tekst */
+}
+
+/* Što se događa kada miš prijeđe preko linka */
+.login-footer a:hover {
+    text-decoration: underline;  /* Dodaje podcrtavanje pri prelasku mišem */
+}
